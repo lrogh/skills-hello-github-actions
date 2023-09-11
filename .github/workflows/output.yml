@@ -15,4 +15,4 @@ jobs:
         run: |
            get-netadapter
            echo "xxx"
-           # echo ${{ toJSON(github) }}      
+           echo "${{ toJSON(github) }}"     
